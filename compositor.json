@@ -1,0 +1,88 @@
+{
+  "name": "ggamel/errorp",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Swiss",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "heading": {
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "layout": {
+      "fluid": true
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/ggamel/errorp",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/errorp",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "errorp",
+      "subhead": "Nice, sensible defaults for error pages.",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "errorp: Nice, sensible defaults for error pages.",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "ggamel",
+          "repo": "errorp"
+        }
+      ],
+      "text": "v0.0.1"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>Errorp - Nice, sensible defaults for error pages.</h1>\n<h2>Error pages for any situation</h2>\n<h3>Why?</h3>\n<p>I just wanted a set of self-contained error pages to throw into a static site, apps, onto a server, etc.</p>\n<h3>What</h3>\n<p>A set of static HTML files, React components.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/ggamel/errorp",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/ggamel",
+          "text": "ggamel"
+        }
+      ]
+    }
+  ]
+}
