@@ -1,0 +1,43 @@
+# node / npm
+node_modules
+.npm
+.node_repl_history
+*.tgz
+package-lock.json
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Yarn
+.yarn-integrity
+yarn.lock
+
+# Gatsby
+.gatsby-context.js
+
+# Bundle
+bundle-stats.json
+
+# Test
+.eslintcache
+test/**/public
+
+# Build
+public/
+.cache/
+.netlify
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# editor
+.vscode/
+.history/*
